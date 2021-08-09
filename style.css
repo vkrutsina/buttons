@@ -1,0 +1,28 @@
+:root {
+  --main-dark-blue: #3d348b;
+  --main-light-blue: #7678ed;
+  --main-yellow: #f7b801;
+  --main-orange: #f18701;
+  --main-dark-orange: #f35b04;
+}
+
+body {
+  font-family: 'Anton', sans-serif;
+  background-color: var(--main-light-blue);
+}
+
+button {
+  font-size: 100px;
+  color: var(--main-dark-blue);
+  border: none;
+  border-radius: 20px;
+  padding: 0.25em 0.75em;
+  cursor: pointer;
+  background-color: var(--main-yellow);
+  margin: 0.25em;
+}
+
+button:hover {
+  background-color: var(--main-dark-orange);
+  color: var(--main-light-blue);
+}
